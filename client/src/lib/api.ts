@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useAuthStore } from '@/stores/auth.store';
 
-const API_URL = 'https://teamer1.replit.app';
+const API_URL = 'http://127.0.0.1:3001';
 
 const api = axios.create({
   baseURL: `${API_URL}/api`,
