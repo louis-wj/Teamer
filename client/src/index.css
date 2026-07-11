@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 15% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 10%;
+    --primary: 235 86% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 15% 10%;
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 235 86% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 359 83% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 235 86% 65%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 6% 20%; /* #313338 - Main BG */
+    --foreground: 210 9% 87%; /* #DBDEE1 - Main Text */
+    --card: 223 7% 18%; /* #2B2D31 - Channel Sidebar */
+    --card-foreground: 210 9% 87%;
+    --popover: 225 7% 12%; /* #1E1F22 - Server List */
+    --popover-foreground: 210 9% 87%;
+    --primary: 235 86% 65%; /* #5865F2 - Blurple */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 7% 14%; /* #232428 - User panel */
+    --secondary-foreground: 210 9% 87%;
+    --muted: 223 6% 23%;
+    --muted-foreground: 214 8% 61%; /* #949BA4 */
+    --accent: 235 86% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 359 66% 60%; /* #ED4245 */
+    --destructive-foreground: 0 0% 100%;
+    --border: 225 7% 12%;
+    --input: 220 6% 20%;
+    --ring: 235 86% 65%;
+  }
+
+  * { @apply border-border; }
+  body { 
+    @apply bg-background text-foreground antialiased selection:bg-discord-blurple/30;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Discord-style scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-discord-dark-1 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-black/40;
+  }
+}
+
+@layer utilities {
+  .discord-sidebar-shadow {
+    box-shadow: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
