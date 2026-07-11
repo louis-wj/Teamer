@@ -1,0 +1,23 @@
+[
+  {
+    "id": "e289fcb3dd3148efa0a3d3929",
+    "name": "general",
+    "type": "TEXT",
+    "serverId": "4421bdcc61354ef9ae3ed0653",
+    "createdAt": "2026-04-11T19:27:46.063594+00:00"
+  },
+  {
+    "id": "0a9a3e9f4e1c4ad698ab20b0b",
+    "name": "d",
+    "type": "TEXT",
+    "serverId": "4421bdcc61354ef9ae3ed0653",
+    "createdAt": "2026-04-11T19:27:59.715098+00:00"
+  },
+  {
+    "id": "3fd8be2af1a043799a4f8dc5f",
+    "name": "a",
+    "type": "TEXT",
+    "serverId": "4421bdcc61354ef9ae3ed0653",
+    "createdAt": "2026-04-11T19:28:02.283996+00:00"
+  }
+]

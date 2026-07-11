@@ -1,0 +1,22 @@
+[
+  {
+    "id": "168804577640976384",
+    "content": "hello",
+    "fileUrl": null,
+    "deleted": false,
+    "createdAt": "2026-04-11T19:29:07.547142+00:00",
+    "updatedAt": "2026-04-11T19:29:07.547142+00:00",
+    "channelId": "e289fcb3dd3148efa0a3d3929",
+    "memberId": "8fb1a4d63e364b28a3026b1a7"
+  },
+  {
+    "id": "168804602534170624",
+    "content": "This message has been deleted.",
+    "fileUrl": null,
+    "deleted": true,
+    "createdAt": "2026-04-11T19:29:13.482765+00:00",
+    "updatedAt": "2026-04-11T19:50:56.775582+00:00",
+    "channelId": "e289fcb3dd3148efa0a3d3929",
+    "memberId": "8fb1a4d63e364b28a3026b1a7"
+  }
+]
