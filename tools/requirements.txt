@@ -1,0 +1,4 @@
+requests==2.32.3
+faker==33.1.0
+colorama==0.4.6
+pystyle==2.9
